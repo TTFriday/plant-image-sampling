@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-11-20T22:52:47.105142+00:00",
+  "cache_frames_verified": 2947,
+  "windows": 32,
+  "records_recomputed": 2624,
+  "signed_and_absolute_decomposition_verified": true,
+  "fullRGB_joint_failures": 4,
+  "fullRGB_area_eligible_n": 28,
+  "cache_sha256": "a68bbb1d57f978440c393297fb7cae4364a0df85db05f7030e120eeea88ec10f",
+  "replay_sha256": "2629fc0e1b85709a87d5653195783df0c270b055075a6acb5b07b9e61e1a6a72",
+  "verifier_sha256": "ac5db37bfb7e007859e4f1bcabd3479308d02ca5f687b0d1fb360e3e85bad3d5",
+  "U0_area_eligible_joint_summary": {
+    "5": {
+      "n": 28,
+      "mean_area_error_pp": 0.04825268414248888,
+      "mean_leaf_error": 0.28851937410118317,
+      "joint_pass_n": 23
+    },
+    "9": {
+      "n": 28,
+      "mean_area_error_pp": 0.05063889419460821,
+      "mean_leaf_error": 0.24445553136611992,
+      "joint_pass_n": 25
+    },
+    "15": {
+      "n": 28,
+      "mean_area_error_pp": 0.03998001475017509,
+      "mean_leaf_error": 0.2698521496298307,
+      "joint_pass_n": 24
+    }
+  },
+  "note": "Development-only exploratory frozen B1 measurement; not formal AEA model, calibration or external validation."
+}

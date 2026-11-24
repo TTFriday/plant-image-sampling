@@ -1,0 +1,24 @@
+plant_id,split_role,status,failure_reason,biological_plant_id
+Ba4-1::rep_08,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Ba4-1__rep_08
+Ba5-1::rep_10,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Ba5-1__rep_10
+Bch-4::rep_01,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Bch-4__rep_01
+Col-0::rep_41,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Col-0__rep_41
+Ei-6::rep_04,V_SHIFT,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Ei-6__rep_04
+Ei-6::rep_06,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Ei-6__rep_06
+Go-0::rep_09,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Go-0__rep_09
+Hs-0::rep_05,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Hs-0__rep_05
+Kz-9::rep_42,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Kz-9__rep_42
+Kz-9::rep_43,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Kz-9__rep_43
+Kz-9::rep_44,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Kz-9__rep_44
+Kz-9::rep_45,V_SHIFT,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Kz-9__rep_45
+Kz-9::rep_48,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Kz-9__rep_48
+Ler-1::rep_46,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Ler-1__rep_46
+Ler-1::rep_48,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Ler-1__rep_48
+Lz-0::rep_09,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Lz-0__rep_09
+Or-0::rep_04,V_SHIFT,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",Or-0__rep_04
+Or-0::rep_09,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Or-0__rep_09
+Or-0::rep_10,V_SHIFT,original_window_ineligible,"[""max_dt_above_18h""]",Or-0__rep_10
+Sav-0::rep_04,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Sav-0__rep_04
+TOU-I-17::rep_47,V_SOURCE,original_window_ineligible,"[""N_below_15"", ""max_dt_above_18h"", ""median_dt_above_12h""]",TOU-I-17__rep_47
+Uk-4::rep_10,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Uk-4__rep_10
+Ws-2::rep_02,V_SOURCE,original_window_ineligible,"[""max_dt_above_18h""]",Ws-2__rep_02

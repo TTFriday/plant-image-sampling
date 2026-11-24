@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-11-20T22:48:29.907628+00:00",
+  "UTC_start": "2026-11-20T22:38:25.722769+00:00",
+  "cache_chain_sha256": "ffe58c6c1109d004a900bc96c1e346f52ae0949ffc78412c02b9592a535bd939",
+  "cache_file_sha256": "a68bbb1d57f978440c393297fb7cae4364a0df85db05f7030e120eeea88ec10f",
+  "expected_frames": 2947,
+  "phase": "complete",
+  "reference_config_sha256": "49a19f583574814f220f8e3545cd35065734d552c16d6b5282bdfe6478b1f1be",
+  "verified_frames": 2947,
+  "version": "aea_rgb_exploratory_v1"
+}

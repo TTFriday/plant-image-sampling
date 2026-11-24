@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verified_utc": "2026-11-20T15:03:31.436395+00:00",
+  "verifier_sha256": "0ad09494df66437d89e1f666fb76815b5789db6c0c4c6faa6eab7644b4d47d46",
+  "inventory_sha256": "3190e4b511ece0a3137cf7ca3f9f60da0b35a6f89af7dcb80a33b5299ebfe9db",
+  "replay_sha256": "50d4517436fd85ca4e691a2bd718308ed661c9cdcd277af8adab6dab34040ac9",
+  "replays_checked": 8774,
+  "successful": 8774,
+  "failed": 0,
+  "unique_windows": 107,
+  "area_eligible_windows": 102,
+  "independently_recomputed_U0": {
+    "5": {
+      "n_plants": 102,
+      "mean_area_error_pp": 0.024599534224111704,
+      "mean_leaf_error": 0.13249471141691946,
+      "joint_pass_count": 100,
+      "joint_pass_rate": 0.9803921568627451
+    },
+    "9": {
+      "n_plants": 102,
+      "mean_area_error_pp": 0.01268415235358119,
+      "mean_leaf_error": 0.07420431068182368,
+      "joint_pass_count": 102,
+      "joint_pass_rate": 1.0
+    },
+    "15": {
+      "n_plants": 102,
+      "mean_area_error_pp": 0.019014224155484802,
+      "mean_leaf_error": 0.042187437607650154,
+      "joint_pass_count": 102,
+      "joint_pass_rate": 1.0
+    }
+  },
+  "note": "GT development-only discrete reference; not RGB measurement or locked-test validation."
+}

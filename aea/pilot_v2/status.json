@@ -1,0 +1,55 @@
+{
+  "status": "completed_provisional_GT_development_pilot",
+  "blocking_reasons": [],
+  "real_analysis": true,
+  "GT_only": true,
+  "counts": {
+    "inventory_rows": 17082,
+    "role_rows": {
+      "T_ID": 2363,
+      "TRAIN": 8159,
+      "V_SOURCE": 1737,
+      "C_POLICY": 1240,
+      "V_SHIFT": 1210,
+      "T_GENO": 2373
+    },
+    "role_plants": {
+      "T_ID": 44,
+      "TRAIN": 152,
+      "V_SOURCE": 31,
+      "C_POLICY": 24,
+      "V_SHIFT": 24,
+      "T_GENO": 43
+    },
+    "development_plants": 207,
+    "window_eligible_plants": 107,
+    "area_eligible_plants": 102,
+    "window_roles": {
+      "TRAIN": 75,
+      "V_SOURCE": 18,
+      "V_SHIFT": 14
+    },
+    "area_window_roles": {
+      "TRAIN": 74,
+      "V_SOURCE": 15,
+      "V_SHIFT": 13
+    },
+    "duplicate_timestamps": 0,
+    "timestamp_conflicts": 0,
+    "naive_timestamps_assumed_UTC": 11106,
+    "exclusion_counts": {
+      "N_below_15": 45,
+      "max_dt_above_18h": 98,
+      "median_dt_above_12h": 42,
+      "no_valid_rgb_gt_frames": 2,
+      "L_outside_156_168h": 4
+    },
+    "area_dimension_exclusions": 5
+  },
+  "P1_decision": "prefer_simple_fixed_rule",
+  "quantile_model_status": "fit_GT_only_validation_evaluated",
+  "UTC_start": "2026-11-20T14:45:59.327760+00:00",
+  "UTC_end": "2026-11-20T14:47:29.481074+00:00",
+  "runtime_wall_s": 90.15376750007272,
+  "area_interpretation": "provisional: fixed pixel field area fraction conditional on unverified physical ROI scale"
+}

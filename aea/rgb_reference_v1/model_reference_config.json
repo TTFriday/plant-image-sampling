@@ -1,0 +1,90 @@
+{
+  "GT_metadata_definition": "audited union_pixels / original width*height and n_instances",
+  "allowed_roles": [
+    "V_SOURCE",
+    "V_SHIFT"
+  ],
+  "data_root": ".",
+  "device": "cuda",
+  "expected_frames": 2947,
+  "external_validation_completed": false,
+  "formal_AEA_40epoch_measurement_completed": false,
+  "inference": {
+    "NMS_threshold": 0.5,
+    "batch": 1,
+    "empty_output": "retain every valid image; zero union and zero leaves for no detections",
+    "eval_resize": "torchvision short side 640, max long side 1333",
+    "eval_short": 640,
+    "leaf_count": "score-qualified instances, including any zero-support thresholded masks",
+    "mask_threshold": 0.5,
+    "max_detections": 100,
+    "max_size": 1333,
+    "normalization": "unchanged COCO mean/std; stride32 padding",
+    "not_AEA_long_side640": true,
+    "precision": "FP32",
+    "probability_postprocess": "paste/restore original image dimensions BEFORE threshold",
+    "score_comparison": ">=",
+    "score_threshold": 0.5,
+    "timing": "synchronized per-frame wall time including hash/read/decode/input transfer/inference/measurement; not a formal JRTIP timing claim",
+    "unchanged_detector_candidate_score_floor": 0.001
+  },
+  "inventory": "shared\\pilot_inventory.csv",
+  "inventory_sha256": "3190e4b511ece0a3137cf7ca3f9f60da0b35a6f89af7dcb80a33b5299ebfe9db",
+  "measurement_cache_only": true,
+  "no_C_POLICY_or_test_effects": true,
+  "no_threshold_scan": true,
+  "notice": "Exploratory cross-route B1 development-best reference, not the independent 40-epoch AEA measurement network. Formal measurement, calibration and external validation remain pending. Real GT is a discrete visible-projection reference, not biomass; fixed-pixel area remains provisional with uncertain scale.",
+  "provenance": {
+    "artifacts": {
+      "best.json": "672f928e61626752b9c1462385f675905ec92fa316a1c744f9fa23d4eb8da8eb",
+      "latest.json": "55ee3c8d08f09201b19f48a844b4208fa2c7e98b52f7f8717620529f024e38f2",
+      "status.json": "cd2a674d4157480e15b3446611f02c4a8e3f06701a469d3455b83fc534410524"
+    },
+    "best_checkpoint": "mva\\B1_pilot_v1\\checkpoint_002500.pt",
+    "best_step": 2500,
+    "checkpoint_sha256": "fc6ae1677f67daaf5a6f0116a1ec53abea19e0b66e11be1adc2277260c0dc7f0",
+    "completed_training_updates": 3000,
+    "dev_report_hashes": {
+      "1000": "89197f696f17160db54c32c9075e02ddd97f2673ba5ce02f92e2b08256b06469",
+      "1500": "e2e6aa6394459d6046730d95e38061444e8921ade2ddc46285af027b34da3083",
+      "2000": "aa4a8e44e9da1b942dc446b8a7ded8349a6373017ae64514634d518f7a1a5c05",
+      "2500": "c841b5208ddcae3140fbc090fe1426fe6a9f24977b85f8df979b174e7b75f349",
+      "3000": "d755ca5df7cad071136394608fac82c31a2aa864cf99ef4ab8d12ec1b2c8290d",
+      "500": "1a19ed71148ca200f20c32773c03d29153df44f3acb8c4465c3caf193cabd6f1"
+    },
+    "initial_COCO_sha256": "bf2d0c1efbc936eeee2bc95a48e80ebc86b891f61b0106485937fc29f9315fc0",
+    "latest_checkpoint_sha256": "9dc4b6210fbbb26da55ba7432350f093757bcd5c86ff8864298f456cb6856577",
+    "run": "mva\\B1_pilot_v1",
+    "run_config_sha256": "d8caf7045273659b09428a2478e82baa4f19fa9e2f1f1bb0094b17f4969ccf25",
+    "selection": "equal-role genotype-macro development AP; earliest tie",
+    "source_hashes": {
+      "aea_rgb_pilot.py": "3c000db9a2a54e0ce441ba53226b5cb03144c450275422cd9798a790cb1f077e",
+      "aea_sampling.py": "4ab19618d3a9771c41f64314ef31263ffc0eb25b08136c894e246a56062cd2e2",
+      "mva_model.py": "736715b9ad8e1c2ed8a75072378b3e9b9d8578f01ae0ac7cd62856e1ce2eb55e",
+      "mva_pilot.py": "8a1c1ed3a260fc355cf54908aa5055cec5e0791d688eb1d8fcf3b0a57ee13ec2"
+    },
+    "trust_boundary": "only checkpoints inside validated local run; never downloaded/untrusted pickle",
+    "trusted_local_checkpoint_weights_only": false
+  },
+  "queue_completion": {
+    "path": "mva\\pilot_queue_v1.status.json",
+    "queue_sha256": "ba905c0080dc348f2f01637c6368d8392b0b20f29f2c2908cb2ace39ce36bb20",
+    "sha256": "36e11240d7a79d98110c6d2d19a363c5a1612eebe4392ab6c4394afb9d29b671"
+  },
+  "reference_kind": "exploratory_cross_route_reference",
+  "role_metadata_counts": {
+    "C_POLICY": 1240,
+    "TRAIN": 8159,
+    "T_GENO": 2373,
+    "T_ID": 2363,
+    "V_SHIFT": 1210,
+    "V_SOURCE": 1737
+  },
+  "software": {
+    "Pillow": "9.4.0",
+    "numpy": "2.2.6",
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124"
+  },
+  "version": "aea_rgb_exploratory_v1"
+}

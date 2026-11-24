@@ -1,0 +1,11 @@
+AEA开发角色GT最小验证：completed_provisional_GT_development_pilot
+仅TRAIN、V_SOURCE、V_SHIFT；未分析或选择C_POLICY/T_ID/T_GENO等锁定角色。
+面积分析为固定像素视场fraction条件结果，物理ROI尺度未经证明，全部provisional；不报告cm²。
+首个RGB和GT共同有效帧起唯一前168h窗；严格156–168h/N≥15/medianΔt≤12h/maxΔt≤18h，不放宽、不补帧。
+实际株与窗口计数：{"inventory_rows": 17082, "role_rows": {"T_ID": 2363, "TRAIN": 8159, "V_SOURCE": 1737, "C_POLICY": 1240, "V_SHIFT": 1210, "T_GENO": 2373}, "role_plants": {"T_ID": 44, "TRAIN": 152, "V_SOURCE": 31, "C_POLICY": 24, "V_SHIFT": 24, "T_GENO": 43}, "development_plants": 207, "window_eligible_plants": 107, "area_eligible_plants": 102, "window_roles": {"TRAIN": 75, "V_SOURCE": 18, "V_SHIFT": 14}, "area_window_roles": {"TRAIN": 74, "V_SOURCE": 15, "V_SHIFT": 13}, "duplicate_timestamps": 0, "timestamp_conflicts": 0, "naive_timestamps_assumed_UTC": 11106, "exclusion_counts": {"N_below_15": 45, "max_dt_above_18h": 98, "median_dt_above_12h": 42, "no_valid_rgb_gt_frames": 2, "L_outside_156_168h": 4}, "area_dimension_exclusions": 5}
+实际回放计数：8774；理论每合格窗82单元，失败保留、oracle不可部署且非全局最优。
+P1开发门槛：prefer_simple_fixed_rule；模型：fit_GT_only_validation_evaluated。
+跨K面积共同株数：102。随机20次先株内聚合；GT达标不是RGB部署达标。
+无计划采集表不声称90%采集完整性；90%误差通过是经验率而非保证。
+阻碍：物理尺度、RGB测量层和后续冻结校准尚待验证
+UTC起止：2026-11-20T14:45:59.327760+00:00 / 2026-11-20T14:47:29.481074+00:00；墙钟秒：90.154

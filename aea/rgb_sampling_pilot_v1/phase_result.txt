@@ -1,0 +1,9 @@
+Exploratory cross-route B1 development-best reference, not the independent 40-epoch AEA measurement network. Formal measurement, calibration and external validation remain pending. Real GT is a discrete visible-projection reference, not biomass; fixed-pixel area remains provisional with uncertain scale.
+Only V_SOURCE/V_SHIFT; original audited windows and fullGT definitions preserved.
+Windows: 32; area eligible (provisional): 28; original excluded: 23.
+fullRGB exceeds joint design tolerance in 4/28 area-eligible plants.
+Increasing K removes sampling loss at full N but does not change e_M; it need not repair model bias.
+e_total=e_M+e_S+e_X verified per functional/record. Absolute errors never added; cancellation is not accuracy.
+U0/fullRGB are exploratory baselines. Fixed phases compared at equal K, never selected by observed error.
+Random20 aggregated within plant, paired whole-plant bootstrap2000; failures/eligible N retained.
+No C_POLICY calibration, confirmatory gate, risk fit, biological ranking, locked-test or external effects evaluated.

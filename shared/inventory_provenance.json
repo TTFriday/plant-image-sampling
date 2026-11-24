@@ -1,0 +1,12 @@
+{
+  "original_sha256": "3190e4b511ece0a3137cf7ca3f9f60da0b35a6f89af7dcb80a33b5299ebfe9db",
+  "published_sha256": "f926a8a4dad2d59074d5fc3390de95a9c44c4858d265d6b47268ccef08a1ff9d",
+  "rows": 17082,
+  "normalized_fields": [
+    "rgb_path",
+    "mask_path",
+    "label_path"
+  ],
+  "raw_media_redistributed": false,
+  "note": "Paths are relative to a user-supplied data root. Row values and hashes are unchanged."
+}
