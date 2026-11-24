@@ -1,0 +1,306 @@
+{
+  "package": "plant-image-sampling",
+  "source_workspace_paths_are_relative": true,
+  "notes": [
+    "Original projects were read only.",
+    "Published hashes describe the portable copies, not the originals.",
+    "Machine snapshots and embedded source-code dumps were removed.",
+    "Path normalization changes file hashes but not scientific table values."
+  ],
+  "files": [
+    {
+      "published_path": "DATA_SOURCES.md",
+      "source_path": null,
+      "source_sha256": null,
+      "published_sha256": "3346cd373f3c48cbd4bc478d43c8216215f0cfcfbd00f4d06dea01dbce4d074d",
+      "transformation": "generated"
+    },
+    {
+      "published_path": "README.md",
+      "source_path": null,
+      "source_sha256": null,
+      "published_sha256": "0850ace060155065711ab4bbdb2464b3446d7d6a1a83dd24b32956959957cbc0",
+      "transformation": "generated"
+    },
+    {
+      "published_path": "THIRD_PARTY_NOTICES/DATASET_LICENSE.md",
+      "source_path": "spatial_gnn/data/phenoleaf_ts/PhenoLeaf-TS-main/DATASET_LICENSE.md",
+      "source_sha256": "16bc70a60ffe68cb657ef85f2edde966bae510a8c1634b6edced8785a82a43f2",
+      "published_sha256": "16bc70a60ffe68cb657ef85f2edde966bae510a8c1634b6edced8785a82a43f2",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v1/config.json",
+      "source_path": "phenoleaf_experiments/aea/pilot_v1/config.json",
+      "source_sha256": "5b9e10a80b73edcaa32364465abbdebec55d76d2109969798378e51aad66c905",
+      "published_sha256": "d1cb432b9a0bead506a568e6daec963e61aa4bc3b347a33ce5bf806fbf5866ae",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/pilot_v2/config.json",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/config.json",
+      "source_sha256": "5fc5c546de02183c5f2ba5175ccb93a86a10b16f7da6125ea331ac7589593a95",
+      "published_sha256": "545501c1fabfa5bfc11e0074f7e4a8cde47da5771527cdfd4b39423b09b10f9b",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/pilot_v2/independent_verification.json",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/independent_verification.json",
+      "source_sha256": "efdbbf59f783d4d757b2027a734b897ba4f7ab1e2372d70b4c1cf482787f8015",
+      "published_sha256": "07e14ea966c2314b95fc939ae0013aac9c3be344a19671c07bfaace43b344449",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/pilot_v2/per_genotype.csv",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/per_genotype.csv",
+      "source_sha256": "d69d85efa3e534fce31a7994792f4087c6ce4d2f2a11f4d4c1ef15fcc62634ec",
+      "published_sha256": "e2ef8d1019130fa01fc39c3a3c5052970649d5ef42eb4cc2e758dcbcc574f4ba",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v2/phase_result.txt",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/phase_result.txt",
+      "source_sha256": "93673600eb6e76d786e9fb4e3f903d9934564ad8041ccb0ccc0f71b2a79f570a",
+      "published_sha256": "93673600eb6e76d786e9fb4e3f903d9934564ad8041ccb0ccc0f71b2a79f570a",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v2/replay_per_plant.csv",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/replay_per_plant.csv",
+      "source_sha256": "50d4517436fd85ca4e691a2bd718308ed661c9cdcd277af8adab6dab34040ac9",
+      "published_sha256": "4c73caf0bc973e580148929f0bc9722f791c0b9050ada73a09b41cb9ba6511da",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v2/source_code_snapshot.py",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/source_code_snapshot.py",
+      "source_sha256": "4ab19618d3a9771c41f64314ef31263ffc0eb25b08136c894e246a56062cd2e2",
+      "published_sha256": "4ab19618d3a9771c41f64314ef31263ffc0eb25b08136c894e246a56062cd2e2",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v2/status.json",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/status.json",
+      "source_sha256": "8772c52bd3e9a47c04bf1b122591c09a30f1e3af78439c9238c07e9bd050db98",
+      "published_sha256": "68e738b4dda84f71caf2a8699cb41e6bbbed385daef608e1ffbac7e2d208b35f",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/pilot_v2/summary.csv",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/summary.csv",
+      "source_sha256": "1e59c31c2112d1a22ad41337b9615b43552089d069311cc62ed64530f1ffba48",
+      "published_sha256": "8f58e501fe16a91fa7789bc1cc0e84ce587321610c0826813aff41a6f9f6d639",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/pilot_v2/window_audit.csv",
+      "source_path": "phenoleaf_experiments/aea/pilot_v2/window_audit.csv",
+      "source_sha256": "beff7b859f42c217cc503e9b6fb02d5d8ac0332f41977e3eb11270b3870dbdcc",
+      "published_sha256": "4af0b7e8638ebdf2406f92c67cd9a88a114701734912652c64076f99fbaadc55",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_reference_v1/model_reference_config.json",
+      "source_path": "phenoleaf_experiments/aea/rgb_reference_v1/model_reference_config.json",
+      "source_sha256": "49a19f583574814f220f8e3545cd35065734d552c16d6b5282bdfe6478b1f1be",
+      "published_sha256": "3fdf1fa2d4d8e73b80cc50e7fe91e8eb5e7b2a9c3c0d8cc615795877e48acd15",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_reference_v1/model_reference_config.sha256",
+      "source_path": "phenoleaf_experiments/aea/rgb_reference_v1/model_reference_config.sha256",
+      "source_sha256": "7149ce8697e4421ddda732b75b2739248c209fec8b397e3da0983fb0ba09c812",
+      "published_sha256": "c5a010bef593ab1bee4e9ab5af796195bad6690c6ae8d7ee1011a59bfc940b06",
+      "transformation": "original pre-normalization hash retained"
+    },
+    {
+      "published_path": "aea/rgb_reference_v1/perframe_measurements.csv",
+      "source_path": "phenoleaf_experiments/aea/rgb_reference_v1/perframe_measurements.csv",
+      "source_sha256": "a68bbb1d57f978440c393297fb7cae4364a0df85db05f7030e120eeea88ec10f",
+      "published_sha256": "a68bbb1d57f978440c393297fb7cae4364a0df85db05f7030e120eeea88ec10f",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_reference_v1/status.json",
+      "source_path": "phenoleaf_experiments/aea/rgb_reference_v1/status.json",
+      "source_sha256": "fa3e5cc2a40fe7b16cf61feaa8852d699764fe63a3519e5dc1035e412ac486cb",
+      "published_sha256": "314806d82a1cab7253c1cc93b6efda80f33ce8313bb637717857181a4856ad42",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_reference_v1/trace.jsonl",
+      "source_path": "phenoleaf_experiments/aea/rgb_reference_v1/trace.jsonl",
+      "source_sha256": "a9fbac636fbd93a9f254606b1db843ba23d260bc6611415ef22c2904b0aa1b30",
+      "published_sha256": "4738d4f4213e3c2478d6c9784bf583c11713fa41929214d1ea8795ec95b06a9e",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/independent_verification.json",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/independent_verification.json",
+      "source_sha256": "237adcf171fe176266990be6ab642b643e02a31569a8d2f4b5c6388fb9e849e0",
+      "published_sha256": "c580a852a48305dc7d4c2b5cfc186fff0c2c53b2f4834491ead62f8c692bf8b5",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/paired_bootstrap.csv",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/paired_bootstrap.csv",
+      "source_sha256": "89630b8dcf73b158558dcead7118bb4121ae3c4a3ab04c20438dc3eeda49767e",
+      "published_sha256": "4508250379cc3833a57d27b1fd5c804e784a533369533a805a24b58a35d38c93",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/per_plant_joint_errors.csv",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/per_plant_joint_errors.csv",
+      "source_sha256": "2629fc0e1b85709a87d5653195783df0c270b055075a6acb5b07b9e61e1a6a72",
+      "published_sha256": "b8e43032f51c0f33201f143a78309e2eb706dccdc8aca065325cc989f33f0222",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/phase_result.txt",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/phase_result.txt",
+      "source_sha256": "0e9a874496cc110c43e41086ef7e760661f80aee8a8ef777b061f337b9ae6612",
+      "published_sha256": "0e9a874496cc110c43e41086ef7e760661f80aee8a8ef777b061f337b9ae6612",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/status.json",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/status.json",
+      "source_sha256": "8c6ff3fa39fa88aca9a4554e86a881b7f0097328439194a3c06ddfc513e8db55",
+      "published_sha256": "a13a394b54819ad1b129283cc9be2531dbbefe1308c27184d820c348f6eea85c",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/summary.csv",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/summary.csv",
+      "source_sha256": "49ea989b2fa720127b90335bbbcff897b821da0966668060533d134e43db169c",
+      "published_sha256": "79aad5d08498d60c3a70e219a4570473b521a729f3bd583571d7b8276b952a40",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/trace.json",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/trace.json",
+      "source_sha256": "5691e3261a180320b1228a9fd3c4f43908f76bafc1dae67b084e4a4b9b8dc20a",
+      "published_sha256": "c1ee806635a454ad815abf7a75e678847507fe4b9de4440f55c61d645ce1e45d",
+      "transformation": "machine fields removed; paths normalized"
+    },
+    {
+      "published_path": "aea/rgb_sampling_pilot_v1/window_failures.csv",
+      "source_path": "phenoleaf_experiments/aea/rgb_sampling_pilot_v1/window_failures.csv",
+      "source_sha256": "cc8498d049ef4ae391d70ffe7dbe57034e19ae0efc2ac1f364139d5ba0d15448",
+      "published_sha256": "eed87bf1ed4490116356bbd63e59894530df60ef026ed0672ce34150e1f959ad",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "data/numbers.json",
+      "source_path": "aea_sampling_paper/data/numbers.json",
+      "source_sha256": "7fdc790f2fa57efe0d7a9496233be42b2d21182368c1ef8de23d50114ef6733e",
+      "published_sha256": "7fdc790f2fa57efe0d7a9496233be42b2d21182368c1ef8de23d50114ef6733e",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "environment.md",
+      "source_path": null,
+      "source_sha256": null,
+      "published_sha256": "72776861aec992b48cac9bdd9c1c3f37f3021a0f6304bb7c1d91dead7501283a",
+      "transformation": "generated"
+    },
+    {
+      "published_path": "requirements.txt",
+      "source_path": null,
+      "source_sha256": null,
+      "published_sha256": "061232e236526428f5e0f580f4ceb72b360b238a8db4eb6866858cb2cdfd9933",
+      "transformation": "generated"
+    },
+    {
+      "published_path": "results/numbers.md",
+      "source_path": "aea_sampling_paper/numbers.md",
+      "source_sha256": "b9299eb0f683ea76434eac6303dfb6d39bbca7e4d53010dc71443e93345416af",
+      "published_sha256": "b9299eb0f683ea76434eac6303dfb6d39bbca7e4d53010dc71443e93345416af",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "scripts/derive_numbers.py",
+      "source_path": "aea_sampling_paper/scripts/derive_numbers.py",
+      "source_sha256": "fb4e1d1af6c46f67786bf417563291be1d3c1b358008ed1ad9e9d530447c0d75",
+      "published_sha256": "fb4e1d1af6c46f67786bf417563291be1d3c1b358008ed1ad9e9d530447c0d75",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "scripts/write_ledger.py",
+      "source_path": "aea_sampling_paper/scripts/write_ledger.py",
+      "source_sha256": "574ddf1229ea380df8a7579801c68ddfa01f059f380b64e88c5dc0dd0d097d71",
+      "published_sha256": "512a84378eb4bf31246a2c9b8c28fadf960a5a04c4e75a70b7b3ba39eaa1c2d2",
+      "transformation": "paper-source reference removed"
+    },
+    {
+      "published_path": "shared/inventory_provenance.json",
+      "source_path": null,
+      "source_sha256": null,
+      "published_sha256": "330f1f7291e5bf7525e09223f228d6c1bff60107a90a810af2e77a5799628d38",
+      "transformation": "generated"
+    },
+    {
+      "published_path": "shared/pilot_inventory.csv",
+      "source_path": "phenoleaf_experiments/shared/pilot_inventory.csv",
+      "source_sha256": "3190e4b511ece0a3137cf7ca3f9f60da0b35a6f89af7dcb80a33b5299ebfe9db",
+      "published_sha256": "f926a8a4dad2d59074d5fc3390de95a9c44c4858d265d6b47268ccef08a1ff9d",
+      "transformation": "path columns normalized"
+    },
+    {
+      "published_path": "src/aea_rgb_pilot.py",
+      "source_path": "phenoleaf_experiments/src/aea_rgb_pilot.py",
+      "source_sha256": "3c000db9a2a54e0ce441ba53226b5cb03144c450275422cd9798a790cb1f077e",
+      "published_sha256": "d1bb5c1320530a1990e6969f26f4a446f55e286aa5a5d2d847bda3d0e4dc4b28",
+      "transformation": "published source pin updated"
+    },
+    {
+      "published_path": "src/aea_sampling.py",
+      "source_path": "phenoleaf_experiments/src/aea_sampling.py",
+      "source_sha256": "4ab19618d3a9771c41f64314ef31263ffc0eb25b08136c894e246a56062cd2e2",
+      "published_sha256": "4ab19618d3a9771c41f64314ef31263ffc0eb25b08136c894e246a56062cd2e2",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "src/mva_model.py",
+      "source_path": "phenoleaf_experiments/src/mva_model.py",
+      "source_sha256": "736715b9ad8e1c2ed8a75072378b3e9b9d8578f01ae0ac7cd62856e1ce2eb55e",
+      "published_sha256": "736715b9ad8e1c2ed8a75072378b3e9b9d8578f01ae0ac7cd62856e1ce2eb55e",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "src/mva_pilot.py",
+      "source_path": "phenoleaf_experiments/src/mva_pilot.py",
+      "source_sha256": "8a1c1ed3a260fc355cf54908aa5055cec5e0791d688eb1d8fcf3b0a57ee13ec2",
+      "published_sha256": "3f4cf375722ddc1126b5c6ada1f50cffb81bac820a15628d3c24c54a0d9fb89e",
+      "transformation": "default checkpoint path parameterized"
+    },
+    {
+      "published_path": "src/verify_aea_results.py",
+      "source_path": "phenoleaf_experiments/src/verify_aea_results.py",
+      "source_sha256": "0ad09494df66437d89e1f666fb76815b5789db6c0c4c6faa6eab7644b4d47d46",
+      "published_sha256": "0bffb54c7f861e6a0b6797936801c56d5d6a0f08febebc836f1e5a88a7baf737",
+      "transformation": "verification output separated from archived evidence"
+    },
+    {
+      "published_path": "src/verify_aea_rgb_results.py",
+      "source_path": "phenoleaf_experiments/src/verify_aea_rgb_results.py",
+      "source_sha256": "ac5db37bfb7e007859e4f1bcabd3479308d02ca5f687b0d1fb360e3e85bad3d5",
+      "published_sha256": "55093ace820abb50053ef584a29eeab6e8b1951878bade02f45f84c57c6b6a20",
+      "transformation": "verification output separated from archived evidence"
+    },
+    {
+      "published_path": "tests/test_aea_rgb.py",
+      "source_path": "phenoleaf_experiments/tests/test_aea_rgb.py",
+      "source_sha256": "2b9221babb079b5a7f8188d2c07887539effff53e4451f8e06d54d276bb49f4b",
+      "published_sha256": "2b9221babb079b5a7f8188d2c07887539effff53e4451f8e06d54d276bb49f4b",
+      "transformation": "verbatim"
+    },
+    {
+      "published_path": "tests/test_aea_sampling.py",
+      "source_path": "phenoleaf_experiments/tests/test_aea_sampling.py",
+      "source_sha256": "1cbd00cff464616508d89c39153f8ca168adaa27d9c95e927fd6907fbb9fb31f",
+      "published_sha256": "065edc26cd2b2207536fa4124065418ae9d97881b4d1035722284326d8e83a79",
+      "transformation": "text decoded as UTF-8; path strings normalized"
+    }
+  ]
+}
